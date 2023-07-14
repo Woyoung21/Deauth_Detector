@@ -3,7 +3,8 @@
 
 This is a script for a simple Deauthentication (Deauth) Attack Detector that uses Scapy to sniff network traffic for Deauth packets, an indicator of a Deauth attack. The script provides a graphical user interface (GUI) using Tkinter, where the state of the network is displayed. The status changes from 'Secure' to 'Deauth attack in progress' based on the detection of Deauth packets.
 
-## Dependencies
+## Requirements
+- Python 3.0+
 - Scapy: A powerful Python-based network packet manipulation program.
 - Tkinter: Python's standard GUI package.
 - Threading: To handle multiple tasks concurrently.
